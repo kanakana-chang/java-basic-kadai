@@ -11,11 +11,6 @@ abstract public class Kato_Chapter18 {
 		this.address=address;
 	}*/
 	
-	//名を表すフィールドの値をセットする
-    public void setGivenName(String givenName) {
-        this.givenName = givenName;
-    }
-	
 	//共通の紹介を出力する
 	public void commonIntroduce() {
 		System.out.println("名前は"+familyName+givenName+"です");
